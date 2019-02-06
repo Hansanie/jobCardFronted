@@ -1,0 +1,10 @@
+.contaniner{
+    background-image: url('/assets/Shopping Background-02.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}

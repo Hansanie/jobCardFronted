@@ -1,0 +1,30 @@
+<app-navbar></app-navbar>
+
+<div class="body">
+    <br><br>
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-4">
+<div class="container">
+  <h3>JobDetail</h3>
+  <dl class="list">
+    <dt>JobNo</dt>
+    <dd>{{ job.jobNo }}</dd>
+    <dt>Description</dt>
+    <dd>{{ job.description }}</dd>
+    <dt>Inventory</dt>
+    <dd>{{ job.inventory }}</dd>
+    <dt>SerialNo</dt>
+    <dd>{{ job.machine.serialNo }}</dd>
+    <dt>Fault</dt>
+    <dd>{{ job.fault.faultName }}</dd>
+    <dt>Reason</dt>
+    <dd>{{ job.reason.reasonDescription }}</dd>
+  </dl>
+</div>
+</div>
+<div class="col-1"></div>
+  <div class="col-6">
+ </div>
+ </div>
+ </div>

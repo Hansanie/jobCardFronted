@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+<!--<h2 class="underlineHover"  routerLink="/home"  routerLinkActive="active"> Home </h2>
+<h2 class="underlineHover"  routerLink="/machines"  routerLinkActive="active"> MachineList </h2>
+<h2 class="underlineHover"  routerLink="/jobCards"  routerLinkActive="active"> JobCardList </h2> -->
+<div class="body">
+  <br><br>
+    <div class="row">
+      <div class="col-8">
+
+      </div>
+     <div class="col-4">
+       <tr *ngFor="let employeeType of employeeTypes">
+        <h3><a href="{{employeeType.employeeTypeName }}">{{employeeType.employeeTypeName }}<br><br><br></a></h3>
+      </tr>
+    </div>
+  </div>
+</div>

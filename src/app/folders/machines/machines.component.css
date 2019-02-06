@@ -1,0 +1,17 @@
+.topic{
+    text-align: center;
+}
+
+/*.body{
+    background-color: rgb(93, 167, 228);
+    height: 584px;
+}*/
+
+.body{
+    background-image: url('/assets/Shopping Background-05.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: 720px;
+}
